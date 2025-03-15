@@ -54,4 +54,30 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
+const course = {
+    coursename : "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
 
+// course.courseInstructor
+
+const {courseInstructor:insrtructor} = course
+
+console.log(insrtructor);
+
+const navbar = ({company}) => {
+
+}
+navbar(company = "hitesh")
+
+
+//{
+//    "name": "hitesh",
+//    "coursename": "js in hindi",
+//    "price": "free"
+//}
+
+{
+    
+}
