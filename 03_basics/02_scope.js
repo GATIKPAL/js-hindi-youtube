@@ -8,4 +8,19 @@ if (true) {
 }
 //console.log(a);
 //console.log(b);
-console.log(c); // yeh print ho raha h
+//console.log(c); // yeh print ho raha h
+
+
+function one(){
+    const username = "hitesh"
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website); give error as website scope is not there
+    
+    two()
+
+}
+one()
+
